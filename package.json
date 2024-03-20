@@ -5,6 +5,7 @@
   "scripts": {
     "start": "expo start",
     "emulator": "emulator -avd Small_Phone_API_34",
+    "restartEmulator": "emulator @avd_name -no-snapshot-load",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
